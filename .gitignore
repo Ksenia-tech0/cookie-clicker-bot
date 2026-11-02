@@ -1,0 +1,42 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Датасет и скриншоты (большие файлы)
+screenshots/
+screenshots_augmented/
+itog/
+
+# Результаты обучения (оставляем только лучший)
+runs/detect/cookie_detector/
+runs/detect/cookie_detector-2/
+runs/detect/cookie_detector-3/
+runs/detect/cookie_detector-4/
+runs/detect/cookie_detector-5/
+runs/detect/cookie_detector-6/
+runs/detect/cookie_detector-7/
+runs/detect/cookie_detector-8/
+runs/detect/cookie_detector-9/
+runs/detect/cookie_detector-10/
+runs/detect/cookie_detector-11/
+
+# ONNX и PT файлы моделей (тяжёлые)
+*.onnx
+*.pt
+best.onnx
+best.pt
+yolov8n.pt
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+uv.lock
+.pytest_cache/

@@ -1,0 +1,6 @@
+path: C:/cookie/itog
+train: images/train
+val: images/val
+
+nc: 4
+names: ['game', 'close_ad', 'upgrade', 'bonus']

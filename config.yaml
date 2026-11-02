@@ -1,0 +1,11 @@
+type: yolov8
+name: MyCookieDetector
+display_name: CookieDetector
+model_path: ./best.onnx
+nms_threshold: 0.45
+confidence_threshold: 0.4
+classes:
+  - game
+  - close_ad
+  - upgrade
+  - bonus
